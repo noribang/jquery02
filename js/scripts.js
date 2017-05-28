@@ -1,5 +1,9 @@
+/* 
+When <p> is clicked <img> of walrus will show.
+*/
 $(document).ready(function() {
 	$('p').click(function() {
-		$('img').show();
+		$('.walrus-showing').show();
+		$('.walrus-hidden').hide();
 	});
 });
